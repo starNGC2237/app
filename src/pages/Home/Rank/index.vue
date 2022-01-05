@@ -2,7 +2,7 @@
  * @Author: zhilutianji
  * @Date: 2021-12-30 23:59:02
  * @LastEditors: zhilutianji
- * @LastEditTime: 2021-12-31 00:03:42
+ * @LastEditTime: 2021-12-31 00:18:47
  * @Description: file content
  * @FilePath: \app\src\pages\Home\Rank\index.vue
 -->
@@ -140,7 +140,7 @@ export default {
             width: 35px;
             height: 35px;
             display: block;
-            background: url(../images/bg0.png);
+            background: url(./images/bg0.png);
             margin-left: 10px;
           }
         }

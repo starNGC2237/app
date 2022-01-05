@@ -2,7 +2,7 @@
  * @Author: zhilutianji
  * @Date: 2021-12-31 00:09:30
  * @LastEditors: zhilutianji
- * @LastEditTime: 2021-12-31 00:10:33
+ * @LastEditTime: 2021-12-31 01:24:10
  * @Description: file content
  * @FilePath: \app\src\pages\Home\Floor\index.vue
 -->
@@ -58,12 +58,13 @@
                   <div class="swiper-slide">
                     <img src="./images/floor-1-b01.png" />
                   </div>
-                  <div class="swiper-slide">
+                  <!--<div class="swiper-slide">
                     <img src="./images/floor-1-b02.png" />
                   </div>
                   <div class="swiper-slide">
                     <img src="./images/floor-1-b03.png" />
-                  </div>
+                  </div> -->
+                  
                 </div>
                 <!-- 如果需要分页器 -->
                 <div class="swiper-pagination"></div>

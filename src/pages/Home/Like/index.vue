@@ -2,7 +2,7 @@
  * @Author: zhilutianji
  * @Date: 2021-12-31 00:05:15
  * @LastEditors: zhilutianji
- * @LastEditTime: 2021-12-31 00:06:15
+ * @LastEditTime: 2021-12-31 00:19:25
  * @Description: file content
  * @FilePath: \app\src\pages\Home\Like\index.vue
 -->
@@ -89,7 +89,7 @@ export default {
 
       .fr {
         float: right;
-        background-image: url(../images/icons.png);
+        background-image: url(./images/icons.png);
         width: 66px;
         height: 25px;
         background-position: 182px -104px;

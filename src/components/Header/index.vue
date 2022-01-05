@@ -2,7 +2,7 @@
  * @Author: zhilutianji
  * @Date: 2021-12-30 18:24:04
  * @LastEditors: zhilutianji
- * @LastEditTime: 2021-12-30 22:26:50
+ * @LastEditTime: 2022-01-04 20:11:57
  * @Description: file content
  * @FilePath: \app\src\components\Header\index.vue
 -->
@@ -78,7 +78,8 @@ export default {
       //this.$router.push("/search/"+this.keyWord);
       //this.$router.push("/search");
       //暂时的解决方法（解决得重写VueRouter原型的push方法
-      this.$router.push({
+      /**
+       *       this.$router.push({
         name:'search',
         params:{
           keyWord:this.keyWord
@@ -87,6 +88,12 @@ export default {
           k:this.keyWord.toUpperCase()
         }
       },()=>{},()=>{})
+       */
+      if(this.$route.query){
+        let location = {name:'search',params:{keyWord:this.keyWord || undefined}}
+        location.query =this.$route.query;
+        this.$router.push(location)
+      }
     },
   },
 };
